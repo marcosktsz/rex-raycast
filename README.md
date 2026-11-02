@@ -10,7 +10,7 @@ List your [Rex](https://www.superlogical.com/rex) sessions in Raycast and switch
 ## Install
 
 ```sh
-git clone <this repo>
+git clone https://github.com/marcosktsz/rex-raycast.git
 cd rex-raycast
 npm install
 npm run dev
