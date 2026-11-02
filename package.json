@@ -1,0 +1,31 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "rex",
+  "title": "Rex",
+  "description": "List and switch between Rex sessions",
+  "icon": "icon.png",
+  "author": "marco",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "switch-session",
+      "title": "Rex Sessions",
+      "description": "List Rex sessions and switch to one",
+      "mode": "view"
+    }
+  ],
+  "scripts": {
+    "build": "ray build",
+    "dev": "ray develop",
+    "lint": "ray lint"
+  },
+  "dependencies": {
+    "@raycast/api": "^1.104.12",
+    "@raycast/utils": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}
